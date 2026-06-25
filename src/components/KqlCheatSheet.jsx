@@ -739,7 +739,7 @@ function JsonPatternsTab({ search }) {
             >
               <span style={{
                 fontSize: 11, color: open ? "#00d4ff" : "var(--tx-5)",
-                flexShrink: 0, transition: "color 0.15s",
+                flexShrink: 0,
                 transform: open ? "rotate(90deg)" : "none",
                 display: "inline-block", transition: "transform 0.15s, color 0.15s",
               }}>▶</span>
